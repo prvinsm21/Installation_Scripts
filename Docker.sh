@@ -16,3 +16,6 @@ sudo apt install docker-ce -y
 #sudo systemctl status docker
 
 sudo chmod 777 /var/run/docker.sock
+
+#For non-root user, Need to craete user
+# sudo usermod -aG docker $USER
